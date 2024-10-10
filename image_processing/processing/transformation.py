@@ -1,8 +1,8 @@
 from skimage.transform import resize
 
-def resize_image(image, proportion):
-    assert 0 <= proportion <= 1, "Specify a valid proportion between 0 and 1."
-    height = round(image.shape[0] * proportion)
-    width = round(image.shape[1] * proportion)
-    image_resized = resize(image, (height, width), anti_aliasing=True)
-    return image_resized
+def resize_imagem(imagem, proportion):
+    assert 0 <= proportion <= 10, "Coloque uma espesificação de 0 a 10"
+    height = round(imagem.shape[0] * proportion)
+    width = round(imagem.shape[1] * proportion)
+    imagem_resized = resize(imagem, (height, width), anti_aliasing=True)
+    return imagem_resized
