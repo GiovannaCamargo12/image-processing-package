@@ -1,8 +1,8 @@
 from skimage.io import imread, imsave
 
-def read_image(path, is_gray = False):
-    image = imread(path, as_gray = is_gray)
-    return image
+def leia_imagem(path, is_gray = False):
+    imagem = imread(path, as_gray = is_gray)
+    return imagem
 
-def save_image(image, path):
-    imsave(path, image) 
+def salve_imagem(imagem, path):
+    imsave(path, imagem) 
