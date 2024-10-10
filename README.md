@@ -1,27 +1,27 @@
 # package_image-processing
 
-Description. 
-The package package_imagem-processing is used to:
+Descrição. 
+O pacote package_imagem-processing é usado:
 	- 
 	-
 
-## Installation
+## Istalação
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_image-processing
+Use o gerenciador de pacotes[pip](https://pip.pypa.io/en/stable/) para instalar package_image-processing
 
 ```bash
 pip install package_image-processing
 ```
 
-## Usage
+## Use
 
 ```python
 from package_name.module1_name import file1_image-processing
 file1_name.my_function()
 ```
 
-## Author
-My_name
+## Autor
+Seu_nome
 
-## License
+## Lincesas
 [MIT](https://choosealicense.com/licenses/mit/)
